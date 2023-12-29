@@ -1,0 +1,13 @@
+File: /lib/systemd/system/fanSpeed.service
+[Unit]
+Description=My Lovely Service
+After=network.target
+
+[Service]
+Type=idle
+Restart=on-failure
+User=root
+ExecStart=/bin/bash -c 'cd /fullpath/To/Shutting_Up_My_IBM && python3 tempChecking.py'
+
+[Install]
+WantedBy=multi-user.target
