@@ -15,8 +15,8 @@ Now - how to do this yourself - when it comes to the file permissions refer to t
 ```
     git clone https://github.com/Sebagabones/Shutting_Up_My_IBM.git
     cd Shutting_Up_My_IBM
-    sudo chown root:root /fullpath/to/Shutting_Up_My_IBM/quitePowerLevel.sh
-    sudo chmod 700 /fullpath/to/Shutting_Up_My_IBM/quitePowerLevel.sh
+    sudo chown root:root /fullpath/to/Shutting_Up_My_IBM/quietPowerLevel.sh
+    sudo chmod 700 /fullpath/to/Shutting_Up_My_IBM/quietPowerLevel.sh
     sudo chown root:root /fullpath/to/Shutting_Up_My_IBM/middlePowerlevel.sh
     sudo chmod 700 /fullpath/to/Shutting_Up_My_IBM/middlePowerlevel.sh
     sudo chown root:root /fullpath/to/Shutting_Up_My_IBM/fullPowerLevel.sh
@@ -26,7 +26,7 @@ Now - how to do this yourself - when it comes to the file permissions refer to t
 
 Now run `sudo visudo` and under `%sudo   ALL=(ALL:ALL) ALL` (you may need to add this if it isn't there - I *think* that's what I did) you add:
 ```
-username ALL=(ALL) NOPASSWD: /fullpath/to/Shutting_Up_My_IBM/quitePowerLevel.sh
+username ALL=(ALL) NOPASSWD: /fullpath/to/Shutting_Up_My_IBM/quietPowerLevel.sh
 username ALL=(ALL) NOPASSWD: /fullpath/to/Shutting_Up_My_IBM/middlePowerlevel.sh
 username ALL=(ALL) NOPASSWD: /fullpath/to/Shutting_Up_My_IBM/fullPowerLevel.sh
 ```
