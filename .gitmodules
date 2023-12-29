@@ -1,0 +1,3 @@
+[submodule "linux-core-temperature-monitor"]
+	path = linux-core-temperature-monitor
+	url = https://github.com/trstringer/linux-core-temperature-monitor.git
