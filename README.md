@@ -37,6 +37,7 @@ Sweet, now to add this all as a systemctl service (I followed this guide https:/
 Now run:
 ```
     sudo chmod 644 /lib/systemd/system/fanSpeed.service
+    sudo systemctl daemon-reload
     sudo systemctl enable fanSpeed.service && sudo systemctl start fanSpeed.service
 ```
 
