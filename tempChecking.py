@@ -24,7 +24,7 @@ def parse_core_temps(sensor_data):
     }
 
 def tellCpuToShutUp():
-    os.system('sudo /fullpath/to/Shutting_Up_My_IBM/quitePowerLevel.sh')
+    os.system('sudo /fullpath/to/Shutting_Up_My_IBM/quietPowerLevel.sh')
 
 def hawtAF():
     os.system('sudo /fullpath/to/Shutting_Up_My_IBM/middlePowerlevel.sh')
