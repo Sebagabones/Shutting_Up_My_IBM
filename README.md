@@ -2,7 +2,7 @@
 Making my IBM  x3550 M4 quiet - an adventure in sketchy behaviour
 
 After a few months of having my IBM X3550 M4 running on my bedroom desk, I finally decided to do something about it.
-I have tested this on an x3550 M4 and an x3650 M4 - it may work on other servers but I haven't tested it 
+I have tested this on an x3550 M4 - it may work on other servers but I haven't tested it 
 
 Using a decent chunk of https://github.com/trstringer/linux-core-temperature-monitor.git (I have included a submodule in this repo) as well as infomation and (modified) commands provided by https://www.reddit.com/r/homelab/comments/aa3xj7/ibm_systemx_3650_m2_fan_speed_control/ I have designed a systemctl service that runs to keep fan noise *somewhat* bearable.
 
